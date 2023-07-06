@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERCTest.UI", "ERCTest.UI\ERCTest.UI.csproj", "{455E4BB1-BFEA-46B2-8204-BB3D5D1B8C19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERCTest.Tests", "ERCTest.Tests\ERCTest.Tests.csproj", "{0A334962-00CC-4AED-B87A-2E8AEBACEDF7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{455E4BB1-BFEA-46B2-8204-BB3D5D1B8C19} = {455E4BB1-BFEA-46B2-8204-BB3D5D1B8C19}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{455E4BB1-BFEA-46B2-8204-BB3D5D1B8C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455E4BB1-BFEA-46B2-8204-BB3D5D1B8C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455E4BB1-BFEA-46B2-8204-BB3D5D1B8C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455E4BB1-BFEA-46B2-8204-BB3D5D1B8C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A334962-00CC-4AED-B87A-2E8AEBACEDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A334962-00CC-4AED-B87A-2E8AEBACEDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A334962-00CC-4AED-B87A-2E8AEBACEDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A334962-00CC-4AED-B87A-2E8AEBACEDF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {901D2494-A317-455A-A517-D963A83CEAEA}
+	EndGlobalSection
+EndGlobal
